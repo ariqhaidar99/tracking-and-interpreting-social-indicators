@@ -11,6 +11,7 @@ The analysis begins by cleaning the raw welfare fund dataset and subsetting it t
 ### 2. Spatial Econometrics & Model Optimisation
 Recognising that raw spending is heavily biased by population size, the data was merged with demographic datasets to calculate **Per Capita Expenditure**. 
 *   **Hypothesis Testing:** We tested the hypothesis that urban density compounds the need for financial crisis relief, as seen below:
+
   ![Welfare fund expenditure per capita vs population density](welfare%20fund%20expenditure%20per%20capita%20vs%20population%20density.png)
 *   **Transformations:** Through iterative econometric modelling, a log-log transformation (`log10`) provided the most robust fit, successfully proving that population density is a statistically significant driver of per-capita welfare spending.
 *   **Multivariate Controls:** A secondary model incorporating demographic age structures (working-age percentages) was tested but ultimately discarded, proving that spatial density overrides age demographics in predicting welfare pressure.
