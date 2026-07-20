@@ -1,0 +1,49 @@
+Area name,Area code,Area type,Estimated population 30 June 2025,"Area (square kilometres)
+",Population density (persons per square kilometre)
+Scotland,S92000003,Country,"5,545,500","77,900",71
+Aberdeen City,S12000033,Council area,"230,180",186,"1,240"
+Aberdeenshire,S12000034,Council area,"264,640","6,313",42
+Angus,S12000041,Council area,"114,610","2,182",53
+Argyll and Bute,S12000035,Council area,"87,310","6,906",13
+City of Edinburgh,S12000036,Council area,"531,370",263,"2,017"
+Clackmannanshire,S12000005,Council area,"51,610",159,324
+Dumfries and Galloway,S12000006,Council area,"145,490","6,426",23
+Dundee City,S12000042,Council area,"148,390",60,"2,481"
+East Ayrshire,S12000008,Council area,"121,350","1,262",96
+East Dunbartonshire,S12000045,Council area,"109,550",174,628
+East Lothian,S12000010,Council area,"116,460",679,171
+East Renfrewshire,S12000011,Council area,"99,840",174,573
+Falkirk,S12000014,Council area,"160,230",297,539
+Fife,S12000047,Council area,"373,990","1,325",282
+Glasgow City,S12000049,Council area,"654,330",175,"3,747"
+Highland,S12000017,Council area,"237,260","25,653",9
+Inverclyde,S12000018,Council area,"78,550",160,490
+Midlothian,S12000019,Council area,"100,390",354,284
+Moray,S12000020,Council area,"94,730","2,238",42
+Na h-Eileanan Siar,S12000013,Council area,"25,770","3,056",8
+North Ayrshire,S12000021,Council area,"133,660",885,151
+North Lanarkshire,S12000050,Council area,"343,930",470,732
+Orkney Islands,S12000023,Council area,"21,920",990,22
+Perth and Kinross,S12000048,Council area,"154,930","5,286",29
+Renfrewshire,S12000038,Council area,"189,270",261,724
+Scottish Borders,S12000026,Council area,"116,800","4,732",25
+Shetland Islands,S12000027,Council area,"22,710","1,467",15
+South Ayrshire,S12000028,Council area,"112,280","1,222",92
+South Lanarkshire,S12000029,Council area,"334,330","1,772",189
+Stirling,S12000030,Council area,"94,040","2,186",43
+West Dunbartonshire,S12000039,Council area,"88,340",159,556
+West Lothian,S12000040,Council area,"187,240",428,438
+Ayrshire and Arran,S08000015,Health board,"367,290","3,370",109
+Borders,S08000016,Health board,"116,800","4,732",25
+Dumfries and Galloway,S08000017,Health board,"145,490","6,426",23
+Fife,S08000029,Health board,"373,990","1,325",282
+Forth Valley,S08000019,Health board,"305,880","2,642",116
+Grampian,S08000020,Health board,"589,550","8,736",67
+Greater Glasgow and Clyde,S08000031,Health board,"1,219,880","1,104","1,105"
+Highland,S08000022,Health board,"324,570","32,559",10
+Lanarkshire,S08000032,Health board,"678,260","2,242",303
+Lothian,S08000024,Health board,"935,460","1,724",543
+Orkney,S08000025,Health board,"21,920",990,22
+Shetland,S08000026,Health board,"22,710","1,467",15
+Tayside,S08000030,Health board,"417,930","7,527",56
+Western Isles,S08000028,Health board,"25,770","3,056",8
