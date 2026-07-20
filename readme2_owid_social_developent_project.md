@@ -1,8 +1,8 @@
 # Global Social Development & Child Mortality Analysis
 
-This repository contains an R-based data engineering and predictive modeling pipeline that evaluates how critical socioeconomic factors shape global childhood survival. 
+This repository contains an R-based data engineering and predictive modelling pipeline that evaluates how critical socioeconomic factors shape global childhood survival. 
 
-By programmatically merging and analyzing multi-decade, country-level data from *Our World in Data* (OWID), this project investigates a fundamental question: **To what extent do extreme poverty, hunger, and lack of clean water collectively predict child mortality rates across different nations and eras?**
+By programmatically merging and analysing multi-decade, country-level data from *Our World in Data* (OWID), this project investigates a fundamental question: **To what extent do extreme poverty, hunger, and lack of clean water collectively predict child mortality rates across different nations and eras?**
 
 ---
 
@@ -23,7 +23,7 @@ The R script (`owid_social_development.R`) follows a structured data science wor
 ### 1. Programmatic Data Ingestion & Cleaning
 * Fetches live `.csv` data files and accompanying `.json` metadata profiles directly from *Our World in Data*.
 * Eliminates historical year anomalies (filtering out rows where `year < 0`).
-* Normalizes long, unwieldy, API-generated column headers into clean, intuitive feature labels (`mortality`, `poverty`, `undernourishment`, `water`).
+* Normalises long, unwieldy, API-generated column headers into clean, intuitive feature labels (`mortality`, `poverty`, `undernourishment`, `water`).
 
 ### 2. Merging & Harmonization
 * Performs an inner merge across all four data frames using a composite key: `by = c("country", "year", "code")`. 
@@ -34,7 +34,7 @@ The R script (`owid_social_development.R`) follows a structured data science wor
 * Evaluates bivariate relationships with child mortality using Pearson correlation tests (`cor.test`) to confirm directional hypotheses.
 * Executes a **Redundancy Check** between `poverty` and `undernourishment` to diagnose potential multicollinearity risks.
 
-### 4. Multivariate Regression Modeling
+### 4. Multivariate Regression Modelling
 The script builds and benchmarks three variations of a multivariate ordinary least squares (OLS) linear model to map structural dynamics:
 
 * **Baseline Linear Model (`v1.final.model`):** Maps direct linear interactions.
